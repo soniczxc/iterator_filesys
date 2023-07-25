@@ -1,6 +1,6 @@
 from file_system_iterator import FileSystemIterator
-root = '/home/vova/Загрузки'
-for item in FileSystemIterator(root, True, False, None):
+root = './tests'
+for item in FileSystemIterator(root, False, True, None):
     print(item)
 print('#' * 50)
 
