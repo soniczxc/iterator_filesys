@@ -1,4 +1,4 @@
-from file_iterator.FileSystemIterator import FileSystemIterator
+from FileSystemIterator import FileSystemIterator
 
 import unittest
 from pathlib import Path
